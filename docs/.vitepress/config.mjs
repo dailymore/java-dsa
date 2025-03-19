@@ -3,9 +3,9 @@ import sidebars from "../sidebars";
 
 export default defineConfig({
   title: "Spring Docs",
-  description: "Java Core training",
+  description: "Java DSA",
   outDir: "../dist",
-  base: "/java-core/",
+  base: "/java-dsa/",
   vite: { server: { port: 2000 } },
   themeConfig: {
     nav: [{ text: "Home", link: "/" }],
